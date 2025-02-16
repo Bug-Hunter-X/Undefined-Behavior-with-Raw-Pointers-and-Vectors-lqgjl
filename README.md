@@ -1,0 +1,1 @@
+This repository demonstrates a common error in Rust when using raw pointers with vectors. Modifying a vector through a raw pointer after changing the vector's capacity can lead to undefined behavior, data corruption, or program crashes.  The `bug.rs` file contains the erroneous code, while `bugSolution.rs` provides a safe and correct alternative.
